@@ -1,0 +1,7 @@
+comandos git 
+
+git init 
+git status 
+git add . 
+git commit -m "Mensafem da alteração"
+git push 
