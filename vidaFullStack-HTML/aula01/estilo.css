@@ -6,11 +6,11 @@ padding: 0;
 box-sizing: border-box;
 font-family: font-family: 'Montserrat', sans-serif;
 }
-body{
+/*body{
     width: 100%;
     height: 100vh;
     background: #242424;
-}
+}*/
 header{
     width:100% ;
     height: 80px;
@@ -52,4 +52,51 @@ header .menu ul li a:hover{
     height: 100vh;
     background: url(/vidaFullStack-HTML/aula01/imagens/CREATIVE.png);
     background-size: cover;
+}#home .container .icons{
+    width: 10%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+    position: fixed;
+    z-index: 999;
+}#home .container .icons ion-icon{
+    padding: 20px 0;
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.5s ease;
+}#home .container .icons ion-icon:hover{
+    color: #156fc3;
+}#home .container .title{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 60px;
+}#home .container .title h1{
+    color: #fff;
+    padding: 0 90px;
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 5px;
+}#home .container .title h2{
+    color: #fff;
+    padding: 0 90px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 3rem;
+    margin-left: 100px;
+    margin-top: 1px;
+}#home .container .title h3{
+    color: #fff;
+    padding: 0 90px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-size: 2rem;
+    margin-left: 100px;
+    margin-top: 1px;
 }
